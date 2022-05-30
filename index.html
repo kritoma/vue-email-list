@@ -10,7 +10,7 @@
 </head>
 <body>
     <div id="app">
-        <h1>{{emails}}</h1>
+        <h1 v-show="emails.length === 10">{{emails}}</h1>
     </div>
 
     <script src="main.js"></script>
